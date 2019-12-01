@@ -6,7 +6,7 @@ Born primarily to read data from Google's Daydream you can also use it for other
 The code consists mainly of two classes, one to find Bluetooth Ble devices "GetBleDivices()" and another "BleManagement()" to connect with the device and then take its services and features, with the ability to activate notifications where possible or to read more simply the data of a feature.
 The part that code that has been taken most into account and then developed is the one concerning the Daydream, in fact you can connect a Daydream and read all the data coming from it that are:
 
-All 5 Buttons
+All 5 Buttons<br/>
 Orientation
 Acceleration
 Gyro
