@@ -4,6 +4,14 @@
 'CLIENT GATT
 'https://docs.microsoft.com/it-it/windows/uwp/devices-sensors/gatt-client
 
+'###########################################################################################################
+'
+' J&B Software 84 
+' Testa Massimiliano
+' Date 01/12/2019
+' 
+'###########################################################################################################
+
 Imports Windows.Devices.Enumeration
 Imports Windows.Devices.Bluetooth.GenericAttributeProfile
 
