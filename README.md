@@ -1,4 +1,4 @@
-# DaydreamsUWP_VB
+# Daydream UWP VB.net Bluetooth BLE
 
 This code written in VB.Net is used to read data from a Bluetooth Ble device.
 Born primarily to read data from Google's Daydream you can also use it for other purposes, that is, reading data from other Bluetooth Ble devices.
@@ -19,11 +19,11 @@ In the Listbox containing the names of the devices found, click Daydream by sele
 After this click on the "3) Connect" button to connect the selected device in the previous listbox.
 When and if the connection is successful, the two listboxes below will display the services in the first and the features in the second. The latter will be connected to service number 4 (0->3). In fact, in the code it is already all set up in order to connect to the service and then to its characteristic example:
 
-Await BleMan.GetCharacteristic(BleServices(3)) ' DAYDREAM
+Await BleMan.GetCharacteristic(BleServices(3)) '# DAYDREAM
 
 This line looks for the characteristics of service number 3
 
-Await BleMan.GetCharacteristic(BleServices(5)) 'BATTERY
+Await BleMan.GetCharacteristic(BleServices(5)) '# BATTERY
 
 The one looks for the features of service number 5 which in this case is the Daydream battery.
 
