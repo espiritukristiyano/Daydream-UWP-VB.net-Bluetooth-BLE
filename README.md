@@ -7,10 +7,10 @@ The code consists mainly of two classes, one to find Bluetooth Ble devices "GetB
 The part that code that has been taken most into account and then developed is the one concerning the Daydream, in fact you can connect a Daydream and read all the data coming from it that are:
 
 All 5 Buttons<br/>
-Orientation
-Acceleration
-Gyro
-Touch x, y
+Orientation<br/>
+Acceleration<br/>
+Gyro<br/>
+Touch x, y<br/>
 
 When you launch the project we will have a series of buttons and listboxes so divided:
 "1) Ble Watch button"

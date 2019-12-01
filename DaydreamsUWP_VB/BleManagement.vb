@@ -47,7 +47,7 @@ Public Class BleManagement
     Public Async Function GetServices(SelectedBleDeviceId As String) As Task
 
         Try
-            '###### CONNETTITI AL DISPOSITIVO BLUETOOTH
+            '###### CONNECT TO DEVICE BLUETOOTH
             bluetoothLeDevice = Await BluetoothLEDevice.FromIdAsync(SelectedBleDeviceId)
             '###### NO CONNECT
             If bluetoothLeDevice Is Nothing Then
@@ -61,9 +61,9 @@ Public Class BleManagement
 
         '###### IS DEVICE BLUETOOTH CONNECTED
         If bluetoothLeDevice IsNot Nothing Then
-            Dim result As GattDeviceServicesResult = Await bluetoothLeDevice.GetGattServicesAsync(BluetoothCacheMode.Uncached) '###### RESTITUISCE I SERVIZI DISPONIBILI
+            Dim result As GattDeviceServicesResult = Await bluetoothLeDevice.GetGattServicesAsync(BluetoothCacheMode.Uncached) '###### RETURNS AVAILABLE SERVICES
 
-            '###### SE LA CONNESSIONE E ANDATA A BUON FINE
+            '###### IF THE CONNECTION WAS SUCCESSFUL
             If result.Status = GattCommunicationStatus.Success Then
                 Dim services = result.Services
 
